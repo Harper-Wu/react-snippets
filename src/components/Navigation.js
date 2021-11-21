@@ -22,7 +22,7 @@ function Navigation() {
         <Navbar.Collapse>
           {/* right-aligned Nav*/}
           <Nav className="justify-content-end" style={{ width: "100%" }}>
-            <NavDropdown title="Snippets" id="navbarScrollingDropdown">
+            <NavDropdown title="Snippets">
               <NavDropdown.Item href="/counter">Counter</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/todo">Todo App</NavDropdown.Item>

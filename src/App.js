@@ -14,7 +14,7 @@ function Home() {
     <div className="content">
       <div className="intro">
         <h1>React Snippets</h1>
-        <p>It is a website that store the snippets, just like a Codepen.</p>
+        <p>Try to make some example/reuseable snippets.</p>
       </div>
     </div>
   )
