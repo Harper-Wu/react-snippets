@@ -24,8 +24,8 @@ function Navigation() {
           <Nav className="justify-content-end" style={{ width: "100%" }}>
             <NavDropdown title="Snippets">
               <NavDropdown.Item href="/counter">Counter</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/todo">Todo App</NavDropdown.Item>
+              {/* <NavDropdown.Divider /> */}
+              <NavDropdown.Item href="/fetchData">Fetch Data</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/about">About Me</Nav.Link>
           </Nav>

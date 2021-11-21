@@ -27,10 +27,19 @@
   padding: 1em;
 }
 
-.counter button{
+.counter button {
   border: none;
   border-radius: var(--border-radius);
   background-color: var(--clr-accent);
   color: var(--clr-light);
   padding: .5em;
+}
+
+.fetch button{
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--clr-accent);
+  color: var(--clr-light);
+  padding: .5em;
+  margin: 1em 1em;
 }
